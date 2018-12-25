@@ -12,4 +12,12 @@
     <artifactId>agent</artifactId>
     <description>实现注入功能</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.7.9</version>
+        </dependency>
+    </dependencies>
+
 </project>
